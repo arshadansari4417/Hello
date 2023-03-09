@@ -1,0 +1,230 @@
+.container{
+  display: flex;
+  margin: 2vmax auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.productCard {
+  border: 2px solid rgba(128, 128, 128, 0.249);
+  border-radius: 10px;
+  width: 14vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+
+.productCard > img {
+  width: 14vmax;
+  border-radius: 10px;
+}
+
+.productCard > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5vmax;
+    font-family: 'Roboto', sans-serif;
+    font: 300 0.7vmax "Roboto";
+}
+
+.productCard > p {
+    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+
+.productCard > span {
+  margin: 0.5vmax;
+  color: rgb(255, 0, 75);
+    font-family: 'Roboto', sans-serif;
+  font-size: 1vmax;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+
+  transform: translateY(-1vmax);
+}
+.image1:hover{
+  cursor: pointer;
+}
+.home{
+  height: 70vh;
+  background-image: url(https://res.cloudinary.com/ragsaatextiles01/image/upload/v1678277551/payment_avatar/daniel-blasco-xvu0WxbaYNY-unsplash_csoex3.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content:left;
+}
+.shlogan{
+  margin-top: 10vh;
+  background-color: rgba(255, 255, 255, 0.400);
+  height: 30vh;
+  width: 60vw;
+  font-size: 45px;
+  color: white;
+}
+.shlogan1{
+  margin-top: 5vh;
+  font-weight: 700;
+  color: rgb(255, 0, 75);
+  font-family: 'Shantell Sans', cursive;
+}
+.services-mob{display: none;}
+.services{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: rgba(220, 220, 220, 0.329);
+}
+.categories{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  /* background-color: rgba(220, 220, 220, 0.329); */
+}
+.s11{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(255, 0, 75) ;
+}
+.s111{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(255, 0, 75) ;
+}
+.s12{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.c1{
+  /* border-radius: 50%; */
+  padding: 10px;
+  border: 5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.c2{
+  /* border-radius: 50%; */
+  padding: 10px;
+  border: 5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.c3{
+  /* border-radius: 50%; */
+  padding: 10px;
+  border: 5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+
+.s1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.s2{display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.s3{display: flex;
+  justify-content: center;
+  margin: 30px;
+  align-items: center;
+}
+
+.s5{display: flex;
+  justify-content: center;
+  margin: 30px;
+  align-items: center;
+}
+.hcr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hcr>p{
+  color:rgb(255, 0, 75);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .home{
+    background-image: url(https://res.cloudinary.com/ragsaatextiles01/image/upload/v1678277045/payment_avatar/tolga-ahmetler-KZDr3vqbAyE-unsplash_imff60.jpg);
+  }
+  .s1{margin: 0;height:15vh;background-color:rgb(251, 242, 232);}
+  .s2{margin: 0;height:15vh;background-color:rgb(254, 226, 191);}
+  .s3{margin: 0;height:15vh;background-color:rgb(255, 215, 166);}
+  .s5{margin: 0;height:15vh;background-color:rgb(255, 199, 125);}
+  .c1{padding: 3vmax;margin: .5vmax;height:15vh;}
+  .c2{padding: 3vmax;margin: .5vmax;height:15vh;}
+  .c3{padding: 3vmax;margin: .5vmax;height:15vh;}
+  .services{display: none;}
+  .services-mob{display: block;}
+  .s12{ 
+    margin: 0 5px; 
+    font-size: 15px;
+    font-weight: 600;}
+  .s11{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(255, 0, 75) ;}
+  .s111{
+    font-size: 2vmax;
+    font-weight: 500;
+    color: rgb(255, 0, 75) ;}
+  .shlogan{
+    height: 20vh;
+    margin-top: 5vh;
+    width: 80vw;
+    font-size: 30px;
+  }
+  .productCard > p {
+    font-size: 1.7vmax;
+  }
+
+  .productCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+
+  .productCard > span {
+    font-size: 1.5vmax;
+  }
+
+  .productCard > div> span {
+    margin: 0 0.5vmax;
+    font-family: 'Roboto', sans-serif;
+    font: 300 1vmax "Roboto";
+  }
+}
+

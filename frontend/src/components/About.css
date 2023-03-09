@@ -1,0 +1,57 @@
+.up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vmax;
+  width: 25vmax;
+  border-radius: 100%;
+  border: 2px solid;
+  background-image: url("https://res.cloudinary.com/ragsaatextiles01/image/upload/v1658031321/cld-sample.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.down {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 2vmax 0;
+
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vmax;
+  margin-top: 3vmax;
+}
+.up1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+    text-align: center;
+    font-size: 1.4vmax;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.464);
+    width: 20vmax;
+    padding: 0.5vmax;
+    margin: 1vmax auto;
+    color: black;
+}
